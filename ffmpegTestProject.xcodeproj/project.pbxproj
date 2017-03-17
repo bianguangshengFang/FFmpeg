@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2099BDCF1E7BB04F005CD1C4 /* Rgb-YuvMethod.c in Sources */ = {isa = PBXBuildFile; fileRef = 2099BDCD1E7BB04F005CD1C4 /* Rgb-YuvMethod.c */; };
+		20A573241E77F4BC00C12F96 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 20A573231E77F4BC00C12F96 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20A5731E1E77F4BB00C12F96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		208CBCBF1E78CF0C00CE1E9A /* miss-america_qcif.yuv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "miss-america_qcif.yuv"; sourceTree = "<group>"; };
+		208CBCC01E78DA1300CE1E9A /* miss-america_qcif-0.yuv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "miss-america_qcif-0.yuv"; sourceTree = "<group>"; };
+		2099BDCD1E7BB04F005CD1C4 /* Rgb-YuvMethod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Rgb-YuvMethod.c"; sourceTree = "<group>"; };
+		2099BDCE1E7BB04F005CD1C4 /* Rgb-YuvMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rgb-YuvMethod.h"; sourceTree = "<group>"; };
+		20A573201E77F4BC00C12F96 /* ffmpegTestProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ffmpegTestProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A573231E77F4BC00C12F96 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		20D1545F1E7928D30037FA9E /* stefan_cif.yuv */ = {isa = PBXFileReference; lastKnownFileType = file; path = stefan_cif.yuv; sourceTree = "<group>"; };
+		20E112CF1E7A674800975F3D /* ss.rgb.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ss.rgb.psd; sourceTree = "<group>"; };
+		20E112D01E7A6D8300975F3D /* rgb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rgb.jpg; sourceTree = "<group>"; };
+		20E112D11E7A6E4700975F3D /* rgb2000.jp2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rgb2000.jp2; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20A5731D1E77F4BB00C12F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20A573171E77F4BB00C12F96 = {
+			isa = PBXGroup;
+			children = (
+				20A573221E77F4BC00C12F96 /* ffmpegTestProject */,
+				20A573211E77F4BC00C12F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20A573211E77F4BC00C12F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A573201E77F4BC00C12F96 /* ffmpegTestProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20A573221E77F4BC00C12F96 /* ffmpegTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				20E112D11E7A6E4700975F3D /* rgb2000.jp2 */,
+				20E112D01E7A6D8300975F3D /* rgb.jpg */,
+				20E112CF1E7A674800975F3D /* ss.rgb.psd */,
+				20D1545F1E7928D30037FA9E /* stefan_cif.yuv */,
+				208CBCC01E78DA1300CE1E9A /* miss-america_qcif-0.yuv */,
+				208CBCBF1E78CF0C00CE1E9A /* miss-america_qcif.yuv */,
+				20A573231E77F4BC00C12F96 /* main.c */,
+				2099BDCD1E7BB04F005CD1C4 /* Rgb-YuvMethod.c */,
+				2099BDCE1E7BB04F005CD1C4 /* Rgb-YuvMethod.h */,
+			);
+			path = ffmpegTestProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20A5731F1E77F4BB00C12F96 /* ffmpegTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A573271E77F4BC00C12F96 /* Build configuration list for PBXNativeTarget "ffmpegTestProject" */;
+			buildPhases = (
+				20A5731C1E77F4BB00C12F96 /* Sources */,
+				20A5731D1E77F4BB00C12F96 /* Frameworks */,
+				20A5731E1E77F4BB00C12F96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ffmpegTestProject;
+			productName = ffmpegTestProject;
+			productReference = 20A573201E77F4BC00C12F96 /* ffmpegTestProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20A573181E77F4BB00C12F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = soufunnet;
+				TargetAttributes = {
+					20A5731F1E77F4BB00C12F96 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N5GUYQLDBX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20A5731B1E77F4BB00C12F96 /* Build configuration list for PBXProject "ffmpegTestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20A573171E77F4BB00C12F96;
+			productRefGroup = 20A573211E77F4BC00C12F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20A5731F1E77F4BB00C12F96 /* ffmpegTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20A5731C1E77F4BB00C12F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A573241E77F4BC00C12F96 /* main.c in Sources */,
+				2099BDCF1E7BB04F005CD1C4 /* Rgb-YuvMethod.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20A573251E77F4BC00C12F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20A573261E77F4BC00C12F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20A573281E77F4BC00C12F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = N5GUYQLDBX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20A573291E77F4BC00C12F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = N5GUYQLDBX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20A5731B1E77F4BB00C12F96 /* Build configuration list for PBXProject "ffmpegTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A573251E77F4BC00C12F96 /* Debug */,
+				20A573261E77F4BC00C12F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20A573271E77F4BC00C12F96 /* Build configuration list for PBXNativeTarget "ffmpegTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A573281E77F4BC00C12F96 /* Debug */,
+				20A573291E77F4BC00C12F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20A573181E77F4BB00C12F96 /* Project object */;
+}
